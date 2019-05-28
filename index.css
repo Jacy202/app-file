@@ -1,0 +1,17 @@
+body{
+  border: solid gray;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  margin:200px;
+  padding:40px;
+  width: 40%;
+}
+#text1 {
+    background-color: rgb(214, 177, 29)
+    height: 90px;  
+}
+
+#result {
+    background-color: rgb(88, 97, 85)
+}

@@ -1,0 +1,82 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>myapp</title>
+    <link href="index.css" rel="stylesheet">
+    <script rel="stylesheet" type="text/javascript" src="index.js"></script>
+</head>
+<body>
+   <div id ="container1">
+       <input id="name" type="text" placeholder="Full Name" > &nbsp; &nbsp;&nbsp; &nbsp;
+       &nbsp; &nbsp;&nbsp; &nbsp;
+       <button id="save" onclick="validate()">save</button>
+   </div> 
+   <br>
+   <br>
+   &nbsp; &nbsp;&nbsp; &nbsp;
+   <div id = "container2">
+       <p>Name : Beverly Peter &nbsp; &nbsp; <input type ="checkbox"></p> -->
+<!-- 
+   </div>
+</body>
+</html> -->
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>2ndApp</title>
+<link href="index.css" rel="stylesheet">
+ 
+<link href="index.css" rel="stylesheet">
+</head>
+<body>
+<input type="text" id="text1"></input>
+<input type="button" id="button1" value="save" onclick="addElementToArray();"></input>
+<input type="button" id="button2" value="Display" onclick="displayArray();"></input>
+<div id="Result"></div> 
+<script rel="stylesheet" type="text/javascript" src="index.js"></script>
+</body>
+</html> -->
+
+
+<!doctype html public "-//w3c//dtd html 3.2//en">
+<html>
+<head>
+<title>Demo of adding element to an array</title>
+</head>
+
+<body>
+ <script type="text/javascript">
+var data = new Array(); // creating array
+
+function add_element(){
+data.push(document.getElementById('t1').value); // adding element to array
+document.getElementById('t1').value=''; // Making the text box blank
+disp(); // displaying the array elements
+}
+
+function disp(){
+var str='';
+str = 'total number of elements in data array : ' + data.length + '<br>';
+for (i=0;i<data.length;i++) 
+{ 
+str += i + ':'+data[i] + "<br >";  // adding each element with key number to variable
+} 
+
+document.getElementById('disp').innerHTML=str; // Display the elements of the array
+}
+</script>
+
+<input type=text  id='t1'><input type=button value='Add' onClick='add_element()';>
+<div id=disp></div>
+
+</body>
+</html>
+
+
+let data = [
+]
